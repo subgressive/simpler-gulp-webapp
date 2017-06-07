@@ -75,7 +75,7 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
-  <script type="text/javascript" src="//www.markrackley.net/scripts/jquery.HillbillyTabs.2013.js"></script>
+  <script type="text/javascript" src="/scripts/jquery.HillbillyTabs.2013.js"></script>
 
   <link type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/start/jquery-ui.css" />
 
@@ -90,6 +90,8 @@
         var webPartTitles = ["One", "Two"];
         HillbillyTabs(webPartTitles);
       });
+      // use setTimeout() to execute
+      //setTimeout(HillbillyTabs, 10000)
 
     })(jQuery);
 
@@ -101,9 +103,9 @@
   <!-- endbuild -->
 
   <!-- build:js scripts/main.js -->
-  <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script -->
+  <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" --></script>
   <!-- script src="scripts/main.js"></script -->
-  <script src="scripts/jquery.HillbillyTabs.2013.js"></script>
+  
 
   <!-- endbuild -->
 </body>
