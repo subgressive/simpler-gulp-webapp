@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>simpler gulp webapp</title>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+</head>
+
+<body>
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <div class="hero-unit">
+    <h1>jQuery Sandpit</h1>
+    <ul>
+      <li>Hillbilly Tabs</li>
+    </ul>
+
+    <!-- WEB PART 1 -->
+    <div class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical-inline-table ms-webpart-cell-vertical ms-fullWidth "
+      id="MSOZoneCell_WebPartWPQ6">
+      <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+        <div class="ms-webpart-chrome-title" id="WebPartWPQ6_ChromeTitle">
+          <span title="Content Editor - Allows authors to enter rich text content." class="js-webpart-titleCell" id="WebPartTitleWPQ6"><h2 class="ms-webpart-titleText" style="text-align: justify;"><nobr><span>One</span>
+          <span id="WebPartCaptionWPQ6"></span>
+          </nobr>
+          </h2>
+          </span>
+        </div>
+        <div class="ms-WPBody noindex ms-wpContentDivSpace " id="WebPartWPQ6" allowdelete="false" width="100%" haspers="false" webpartid="3c91fcb6-4240-473b-8302-859d34fc70ba"
+          allowremove="false" webpartid2="afb8675b-6a2a-4fab-a887-68839080812f">
+          <div class="ms-rtestate-field">​Bollocks</div>
+          <div class="ms-clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WEB PART 2 -->
+    <div class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical-inline-table ms-webpart-cell-vertical ms-fullWidth "
+      id="MSOZoneCell_WebPartWPQ7">
+      <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+        <div class="ms-webpart-chrome-title" id="WebPartWPQ7_ChromeTitle">
+          <span title="Content Editor - Allows authors to enter rich text content." class="js-webpart-titleCell" id="WebPartTitleWPQ7"><h2 class="ms-webpart-titleText" style="text-align: justify;"><nobr><span>Two</span>
+          <span id="WebPartCaptionWPQ7"></span>
+          </nobr>
+          </h2>
+          </span>
+        </div>
+        <div class="ms-WPBody noindex ms-wpContentDivSpace " id="WebPartWPQ6" allowdelete="false" width="100%" haspers="false" webpartid="3c91fcb6-4240-473b-8302-859d34fc70bB"
+          allowremove="false" webpartid2="afb8675b-6a2a-4fab-a887-68839080812G">
+          <div class="ms-rtestate-field">​Shizen</div>
+          <div class="ms-clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABS CONTAINER -->
+    <div id="tabsContainer"></div>
+
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script type="text/javascript" src="//www.markrackley.net/scripts/jquery.HillbillyTabs.2013.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/start/jquery-ui.css" />
+
+
+
+  <script type="text/javascript">
+    (function ($) {
+      'use strict';
+
+      $(function () {
+        //Put 2 web parts in 2 different tabs
+        var webPartTitles = ["One", "Two"];
+        HillbillyTabs(webPartTitles);
+      });
+
+    })(jQuery);
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script -->
+  <!-- script src="scripts/main.js"></script -->
+  <script src="scripts/jquery.HillbillyTabs.2013.js"></script>
+
+  <!-- endbuild -->
+</body>
+
+</html>
